@@ -155,7 +155,7 @@ public class Login extends javax.swing.JFrame {
     }                                           
 
     private void BotonConfirmarActionPerformed(java.awt.event.ActionEvent evt) {                                               
-        //Aqui esta el codigo que se ejecuta cuando es pulsado
+        //Aqui esta el codigo que se ejecuta cuando el boton confirmar es pulsado
         FieldCorreoActionPerformed(evt);
         FieldContraseñaActionPerformed(evt);
         //Comprobamos si el text field del correo y la contraseña estan vacios
