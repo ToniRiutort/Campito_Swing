@@ -186,7 +186,7 @@ public class PaginaP extends javax.swing.JFrame {
         peq.setVisible(true);
     }                                           
 
-    //Aqui esta el codigo que se ejecuta cuando el boton equipo es pulsado
+    //Aqui esta el codigo que se ejecuta cuando el boton Campo es pulsado
     private void BotonCampoActionPerformed(java.awt.event.ActionEvent evt) {                                           
         //Cerramos la PaginaP
         dispose();
@@ -197,7 +197,7 @@ public class PaginaP extends javax.swing.JFrame {
         pc.setVisible(true);
     }                                          
 
-    //Aqui esta el codigo que se ejecuta cuando el boton equipo es pulsado
+    //Aqui esta el codigo que se ejecuta cuando el boton equipacion es pulsado
     private void BotonEquipacionActionPerformed(java.awt.event.ActionEvent evt) {                                                
         //Cerramos la PaginaP
         dispose();
@@ -208,20 +208,20 @@ public class PaginaP extends javax.swing.JFrame {
         peqn.setVisible(true);
     }                                               
 
-    //Aqui esta el codigo que se ejecuta cuando el boton equipo es pulsado
+    //Aqui esta el codigo que se ejecuta cuando el boton partidos es pulsado
     private void BotonPartidosActionPerformed(java.awt.event.ActionEvent evt) {                                              
         //Cerramos la PaginaP
         dispose();
-        //Abrimos la PaginaEquipacion
+        //Abrimos la PaginaPartidos
         PaginaPartidos pp = new PaginaPartidos();
         pp.setVisible(true);
     }                                             
 
-    //Aqui esta el codigo que se ejecuta cuando el boton equipo es pulsado
+    //Aqui esta el codigo que se ejecuta cuando el boton tienda es pulsado
     private void BotonTiendaActionPerformed(java.awt.event.ActionEvent evt) {                                            
         //Cerramos la PaginaP
         dispose();
-        //Abrimos la PaginaEquipacion
+        //Abrimos la PaginaTienda
         PaginaTienda pt = new PaginaTienda();
         pt.setVisible(true);
     }                                           
