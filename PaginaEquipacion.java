@@ -192,6 +192,7 @@ public class PaginaEquipacion extends javax.swing.JFrame {
         peq.setVisible(true);
     }                                           
 
+    //Aqui esta el codigo que se ejecuta cuando el boton campo es pulsado
     private void BotonCampoActionPerformed(java.awt.event.ActionEvent evt) {                                           
         //Cerramos la PaginaEquipacion
         dispose();
@@ -202,6 +203,7 @@ public class PaginaEquipacion extends javax.swing.JFrame {
         pc.setVisible(true);
     }                                          
 
+    //Aqui esta el codigo que se ejecuta cuando el boton equipacion es pulsado
     private void BotonEquipacionActionPerformed(java.awt.event.ActionEvent evt) {                                                
         //Cerramos la PaginaEquipacion
         dispose();
@@ -212,6 +214,7 @@ public class PaginaEquipacion extends javax.swing.JFrame {
         peqn.setVisible(true);
     }                                               
 
+    //Aqui esta el codigo que se ejecuta cuando el boton partidos es pulsado
     private void BotonPartidosActionPerformed(java.awt.event.ActionEvent evt) {                                              
         //Cerramos la PaginaEquipacion
         dispose();
@@ -220,6 +223,7 @@ public class PaginaEquipacion extends javax.swing.JFrame {
         pp.setVisible(true);
     }                                             
 
+    //Aqui esta el codigo que se ejecuta cuando el boton tienda es pulsado
     private void BotonTiendaActionPerformed(java.awt.event.ActionEvent evt) {                                            
         //Cerramos la PaginaEquipacion
         dispose();
