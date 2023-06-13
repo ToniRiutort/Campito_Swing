@@ -1,8 +1,5 @@
 import java.awt.event.ActionEvent;
-/**
- *
- * @author User
- */
+
 public class PaginaP extends javax.swing.JFrame {
 
     /**
