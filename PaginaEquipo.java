@@ -17,13 +17,13 @@ public class PaginaEquipo extends javax.swing.JFrame {
         //Aqui ponemos un try y catch por si la conexion no va bien
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            //Conexion le indicamos "jdbc:mysql://IP:3306/Nombre de la base de datos","Nombre usuario","Contraseña"
+            //A la variable conexion le indicamos "jdbc:mysql://IP:3306/Nombre de la base de datos","Nombre usuario","Contraseña"
             Connection conexion = DriverManager.getConnection("jdbc:mysql://192.168.56.2:3306/Campito","toni","1234");
             Statement s = conexion.createStatement();
             //rs es donde se guarda la ejecucion de la querry
             ResultSet rs = s.executeQuery("SELECT * FROM PLANTILLA ORDER BY Dorsal");
             
-            //Bucle en donde vamos guardando la información del resultado de la querry
+            //Bucle donde vamos guardando la información del resultado de la querry
             while(rs.next()){
                 plantillan = plantillan +(rs.getString(1)+"<br>");
                 LabelPlantillan.setText(plantillan);
@@ -52,7 +52,7 @@ public class PaginaEquipo extends javax.swing.JFrame {
             LabelPlantillad.setText("<html>"+plantillad+"</html>");
             conexion.close();
         }
-        //Catch que si encuentra un error mostrara que ha habido un error y cual es
+        //Catch que si encuentra un error lo mostrara y dira donde ha fallado
         catch(Exception e){
             System.out.println("ERROR EN PAGINAEQUIPO");
             System.out.println(e);
